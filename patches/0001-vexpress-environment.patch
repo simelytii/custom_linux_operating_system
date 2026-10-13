@@ -1,0 +1,13 @@
+diff --git a/configs/vexpress_ca15_tc2_defconfig b/configs/vexpress_ca15_tc2_defconfig
+index cabc0c4..3156906 100644
+--- a/configs/vexpress_ca15_tc2_defconfig
++++ b/configs/vexpress_ca15_tc2_defconfig
+@@ -19,7 +19,7 @@ CONFIG_CMD_MMC=y
+ # CONFIG_CMD_NFS is not set
+ # CONFIG_CMD_MISC is not set
+ CONFIG_CMD_UBI=y
+-CONFIG_ENV_IS_IN_FLASH=y
++CONFIG_ENV_IS_NOWHERE=y
+ CONFIG_MTD_NOR_FLASH=y
+ CONFIG_MTD_DEVICE=y
+ CONFIG_FLASH_CFI_DRIVER=y
